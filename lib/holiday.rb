@@ -112,9 +112,7 @@ def all_holidays_with_bbq(holiday_hash)
   
   holiday_hash.each do |season, holidays|
       holidays.each do |holiday, supplies|
-        supplies.each do |supply|
-        
-        end
+        holidays_with_bbq.push(holiday.to_s) if 
       end
   end
 end
